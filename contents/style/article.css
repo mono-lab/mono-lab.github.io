@@ -1,0 +1,98 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #eee;
+}
+
+.title {
+	font-size: 4em;
+	color: #555;
+	text-align: center;
+}
+
+.title a {
+	text-decoration: none;
+	color: #555;
+}
+
+#footer {
+	padding: 10px;
+	background: #eee;
+	clear: both;
+}
+
+#footer .copyright {
+	color: #555;
+	font-size: 80%;
+	text-align: center;
+	border-top: solid 1px #555;
+}
+
+.main {
+	max-width: 75%;
+	margin: 10px auto;
+	padding: 10px;
+	background-color: white;
+}
+
+.main .header {
+	border-bottom: solid 1px #555;
+}
+
+.main .header h2 {
+	color: #555;
+	text-align: center;
+}
+
+.main .header.time,
+.main .header .retime {
+	color: #555;
+}
+
+.main .retime::before {
+	content: "/";
+	color: #555;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.main .content p,
+.main .content h3,
+.main .content h4 {
+	color: #555;
+}
+
+.main .content h3 {
+	padding-bottom: .5em;
+	border-bottom: 3px double #ccc;
+}
+
+.main .content h3:first-letter {
+	margin-right: .1em;
+	font-size: 1.5em;
+}
+
+.main .content h4 {
+	padding: .25em 0 .25em .75em;
+	border-left: 6px solid #ccc;
+}
+
+@media screen and (max-width:767px) {
+	.main .content .float {
+		margin: 10px auto;
+		width: 250px;
+		height: 250px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.main .content .float {
+		float: left;
+		margin: 10px;
+		width: 250px;
+		height: 250px;
+	}
+}
