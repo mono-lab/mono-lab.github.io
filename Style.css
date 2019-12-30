@@ -81,3 +81,8 @@ header {
   transform: translateX(0%);
   box-shadow: 6px 0 25px rgba(0,0,0,.15);
 }
+.title {
+	font-size : 4em;
+	color : #555;
+	text-align : center;
+}
